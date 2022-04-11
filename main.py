@@ -179,10 +179,12 @@ def delete_tweets(oauth, tweets):
         if (rate_limit == DELETE_RATE_LIMIT):
             rate_limit = 0
             print("\n*** RATE LIMIT REACHED. SLEEPING FOR 15 MIN. ***")
+
             for i in range(1, RATE_LIMIT_TIMEOUT_MIN + 1):
                 time.sleep(60)
-                print('\t%d minutes left...' % RATE_LIMIT_TIMEOUT_MIN - 1)
-            print('\n')
+                print('\t%d minutes left...' % (RATE_LIMIT_TIMEOUT_MIN - i))
+                
+            print('\nResuming deletions...')
 
     print("\nSuccessfully deleted %d tweets, with %d errors" %
           (num_deleted, num_errored))
