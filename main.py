@@ -140,7 +140,10 @@ def delete_tweets(oauth, tweets):
     this function sleeps for 15 min, every 50 tweets it deletes.
     """
 
-    def delete_tweet(tweet, num_deleted, num_errored):
+    num_deleted = 0
+    num_errored = 0
+
+    def delete_tweet(tweet):
         """
         Do the request to delete a tweet by id. Print and increment success / error counts.
         """
@@ -158,9 +161,6 @@ def delete_tweets(oauth, tweets):
 
     print("\nDeleting tweets before: %s" % DATE_CUTOFF)
 
-    num_deleted = 0
-    num_errored = 0
-
     rate_limit = 0
 
     for tweet in tweets:
@@ -172,7 +172,7 @@ def delete_tweets(oauth, tweets):
             continue
 
         # Otherwise, the tweet came BEFORE the DATE_CUTOFF, delete
-        delete_tweet(tweet, num_deleted, num_errored)
+        delete_tweet(tweet)
 
         rate_limit = rate_limit + 1
 
