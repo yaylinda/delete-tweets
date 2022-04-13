@@ -4,7 +4,7 @@ Do you have hundreds of embrassing tweets on your Twitter profile, that you twee
 
 No?
 
-Well, me either. (With the help of this script!)
+Well, [me](https://twitter.com/lindazheng) either. (With the help of this script!)
 
 ## Prerequisits
 ### Dev Environment
