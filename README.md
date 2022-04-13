@@ -11,7 +11,7 @@ Well, [me](https://twitter.com/lindazheng) either. (With the help of this script
 `python3`
 
 ### Get Twitter API credentials
-Follow the instructions [here]((https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api)) to generate the bearer and access tokens for the Twitter API. Verify that your access tokens allow read and write operations.
+Follow the instructions [here](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api) to generate the bearer and access tokens for the Twitter API. Verify that your access tokens allow read and write operations.
 
 You should see something like this on your [Twitter Developer Dashboard](https://developer.twitter.com/en/portal/dashboard) for your Project/App.
 ![Screen Shot 2022-04-13 at 2 48 54 AM](https://user-images.githubusercontent.com/10225317/163126753-dfcb719a-b27f-441d-abca-c2b619c9ae9d.png)
