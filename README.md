@@ -1,6 +1,6 @@
 # Delete Tweets
 
-Do you have hundreds of embrassing tweets on your Twitter profile, that you tweeted over a decade ago as an innocent high schooler, that is now causing you to cringe any time you think about them?
+Do you have hundreds of embarrassing tweets on your Twitter profile, that you tweeted over a decade ago as an innocent high schooler, that is now causing you to cringe any time you think about them?
 
 No?
 
